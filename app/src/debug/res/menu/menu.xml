@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="10dp" android:layout_width="10dp">
+    <item
+        android:id="@+id/info_toolbar"
+        android:icon="@android:drawable/ic_menu_info_details"
+        app:showAsAction="ifRoom"
+        android:title="Info">
+    </item>
+    <item
+        android:id="@+id/mapInfo"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        app:showAsAction="ifRoom"
+        android:title="Info">
+    </item>
+
+</menu>
